@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="SKU_AUTOM.SKU_AUTOMATION.controller.PrgVersionPopup">
+	<App>
+		<pages>
+			<Page title="Program Version">
+				<content>
+				    <Label text="Add / Edit" width="100%" id="label0"/><Input xmlns="sap.m" value="Product Version" id="input0" width="50%"/>
+				    <Input xmlns="sap.m" id="input1" width="50%" value="Port Structure"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
