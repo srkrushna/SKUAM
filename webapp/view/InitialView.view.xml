@@ -2,66 +2,68 @@
 	<App id="idAppControl">
 		<pages>
 			<Page title="{i18n>Title}">
-				<content>
-				    <Table noDataText="Drop column list items here and columns in the area above" id="table0">
-				        <items>
-				            <ColumnListItem type="Active" id="item0">
-				                <cells>
-				                    <Text text="Row 1 Cell 1" id="text0"/>
-				                    <Text text="Row 1 Cell 2" id="text1"/>
-				                    <Text text="Row 1 Cell 3" id="text2"/>
-				                    <Text text="Row 1 Cell 4" id="text3"/>
-				                    <Text text="Row 1 Cell 5" id="text4"/>
-				                    <Text text="Row 1 Cell 6" id="text5"/>
-				                    </cells>
-				            </ColumnListItem>
-				        </items>
-				        <columns>
-				            <Column id="column0">
-				                <header>
-				                    <Label text="Header 1" id="label0"/>
-				                </header>
-				            </Column>
-				            <Column id="column1">
-				                <header>
-				                    <Label text="Header 2" id="label1"/>
-				                </header>
-				            </Column>
-				            <Column id="column2">
-				                <header>
-				                    <Label text="Header 3" id="label2"/>
-				                </header>
-				            </Column>
-				            <Column id="column2">
-				                <header>
-				                    <Label text="Header 4" id="label3"/>
-				                </header>
-				            </Column>
-				            <Column id="column2">
-				                <header>
-				                    <Label text="Header 5" id="label4"/>
-				                </header>
-				            </Column>
-				            <Column id="column2">
-				                <header>
-				                    <Label text="Header 6" id="label5"/>
-				                </header>
-				            </Column>
-				            <Column id="column2">
-				                <header>
-				                    <Label text="Header 7" id="label6"/>
-				                </header>
-				            </Column></columns></Table>
+				<content><Bar ariaLabelledBy="__xmlview0--label3" id="bar0">
+						<contentRight>
+						</contentRight>
+					<contentLeft>
+					    <Button xmlns="sap.m" text="New Request" id="button0" icon="sap-icon://add-document"/>
+					</contentLeft>
+					</Bar>
+					<Table noDataText="Drop column list items here and columns in the area above" id="table0">
+						<items>
+							<ColumnListItem type="Active" id="item0">
+								<cells>
+									<Text text="Row 1 Cell 1" id="text0"/>
+									<Text text="Row 1 Cell 2" id="text1"/>
+									<Text text="Row 1 Cell 3" id="text2"/>
+									<Text text="Row 1 Cell 4" id="text3"/>
+									<Text text="Row 1 Cell 5" id="text4"/>
+									<Text text="Row 1 Cell 6" id="text5"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="column0">
+								<header>
+									<Label text="Header 1" id="label0"/>
+								</header>
+							</Column>
+							<Column id="column1">
+								<header>
+									<Label text="Header 2" id="label1"/>
+								</header>
+							</Column>
+							<Column id="column2">
+								<header>
+									<Label text="Header 3" id="label2"/>
+								</header>
+							</Column>
+							<Column id="column3">
+								<header>
+									<Label text="Header 4" id="label3"/>
+								</header>
+							</Column>
+							<Column id="column4">
+								<header>
+									<Label text="Header 5" id="label4"/>
+								</header>
+							</Column>
+							<Column id="column5">
+								<header>
+									<Label text="Header 6" id="label5"/>
+								</header>
+							</Column>
+							<Column id="column6">
+								<header>
+									<Label text="Header 7" id="label6"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
 				</content>
-			<headerContent>
-			</headerContent>
-			<footer>
-			    <Bar ariaLabelledBy="__xmlview0--label3" id="bar0">
-				        <contentRight>
-				            <Button xmlns="sap.m" text="New Request" id="button0" icon="sap-icon://add-document"/>
-				        </contentRight>
-				    </Bar>
-			</footer>
+				<headerContent/>
+				<footer>
+				</footer>
 			</Page>
 		</pages>
 	</App>
