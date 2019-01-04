@@ -1,9 +1,10 @@
-<mvc:View controllerName="SKU_AUTOM.SKU_AUTOMATION.controller.InitialView" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="SKU_AUTOM.SKU_AUTOMATION.controller.InitialView" displayBlock="true">
 	<App id="idAppControl">
 		<pages>
-			<Page title="{i18n>title}">
-				<content></content>
+			<Page title="Hardware SKU Request Form">
+				<content>
+				    <Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Program Version Popup" id="button0" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'PrgVersionPopup'\}\}\}"/>
+				</content>
 			</Page>
 		</pages>
 	</App>

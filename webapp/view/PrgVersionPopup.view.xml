@@ -3,10 +3,18 @@
 		<pages>
 			<Page title="Program Version">
 				<content>
-				    <Label text="Add / Edit" width="100%" id="label0"/><Input xmlns="sap.m" value="Product Version" id="input0" width="50%"/>
-				    <Input xmlns="sap.m" id="input1" width="50%" value="Port Structure"/>
+				    <Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Close" id="button0" press="close"/>
+				    <sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="grid0">
+				        <sap.ui.layout:content>
+				            <ObjectListItem title="laptop" number="24" numberUnit="eur" intro="Category" icon="sap-icon://laptop" id="item0"/>
+				            <ObjectListItem title="projector" number="12" numberUnit="eur" intro="Category" icon="sap-icon://projector" id="item1"/>
+				            <ObjectListItem title="print" number="12" numberUnit="eur" intro="Category" icon="sap-icon://print" id="item2"/>
+				            <ObjectListItem title="leads" number="57" numberUnit="eur" intro="Category" icon="sap-icon://leads" id="item3"/>
+				            <InputListItem type="Navigation" label="Customers List" id="item4"/>
+				            <InputListItem type="Navigation" label="Leads list" id="item5"/></sap.ui.layout:content>
+				    </sap.ui.layout:Grid>
 				</content>
 			</Page>
-		</pages>
+		</pages>		
 	</App>
 </mvc:View>
