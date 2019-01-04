@@ -1,19 +1,16 @@
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="SKU_AUTOM.SKU_AUTOMATION.controller.InitialView" displayBlock="true">
 	<App id="idAppControl">
 		<pages>
-
-			<Page title="Hardware SKU Request Form">
-				<content>
-				    <Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Program Version Popup" id="button0" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'PrgVersionPopup'\}\}\}"/>
-				</content>
-
 			<Page title="{i18n>Title}">
+				
 				<content><Bar ariaLabelledBy="__xmlview0--label3" id="bar0">
 						<contentRight>
+							<Button xmlns="sap.m" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Program Version Popup" id="button0" press="action" action:wiring="\{'press':\{'navigation':\{'routeName':'PrgVersionPopup'\}\}\}"/>
 						</contentRight>
 					<contentLeft>
-					    <Button xmlns="sap.m" text="New Request" id="button0" icon="sap-icon://add-document"/>
+					    <Button xmlns="sap.m" text="New Request" id="button1" icon="sap-icon://add-document"/>
 					</contentLeft>
+					 
 					</Bar>
 					<Table noDataText="Drop column list items here and columns in the area above" id="table0">
 						<items>
